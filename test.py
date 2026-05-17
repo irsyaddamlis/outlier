@@ -1,4 +1,5 @@
 # 1. Import your library file (make sure you are in the 'outlier' folder)
+import pandas as pd
 from outlier import OutlierDetector
 
 data = pd.DataFrame({
