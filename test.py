@@ -1,6 +1,6 @@
 # 1. Import your library file (make sure you are in the 'outlier' folder)
 import pandas as pd
-from outlier import OutlierDetector
+import outlier
 
 data = pd.DataFrame({
     'ID'    : ['A', 'B', 'C', 'D', 'E', 'F'],
@@ -10,13 +10,13 @@ data = pd.DataFrame({
 })
 
 # Default — all numeric columns
-cleaned1 = OutlierDetector(data)
+cleaned1 = outlier(data)
 
 # Specific column
-cleaned2 = OutlierDetector(data, columns=['Income'])
+cleaned2 = outlier(data, columns=['Income'])
 
 # Custom threshold
-cleaned3 = OutlierDetector(data, columns=['Income'], threshold_iqr=1.0)
+cleaned3 = outlier(data, columns=['Income'], threshold_iqr=1.0)
 
 print(cleaned1)
 print('---')
