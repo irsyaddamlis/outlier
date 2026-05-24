@@ -5,10 +5,9 @@ try:
 except PackageNotFoundError:
     __version__ = "unknown"             # fallback if not installed yet
 
-__author__ = "Your Name"
-__email__ = "your@email.com"
-__license__ = "MIT"
-__status__ = "Development"
+__author__ = "Irsyad Damlis"
+__email__ = "irsyad.damlis@gmail.com"
+__license__ = "arch-notions"
 
 from .detector import OutlierDetector
 
