@@ -7,7 +7,7 @@ A lightweight Python library for automatically detecting and removing outliers f
 ## Installation
 
 ```bash
-pip install git+https://github.com/yourname/outlier.git
+pip install git+https://github.com/irsyaddamlis/outlier.git
 ```
 
 ---
@@ -18,6 +18,7 @@ pip install git+https://github.com/yourname/outlier.git
 
 ```bash
 pip3 install --force-reinstall --user --no-cache-dir git+https://github.com/irsyaddamlis/outlier.git
+
 ```
 
 ---
