@@ -10,7 +10,7 @@ except PackageNotFoundError:
 
 __author__ = "Irsyad Damlis"
 __email__ = "irsyad.damlis@gmail.com"
-__license__ = "arch-notions"
+__license__ = "MIT"
 
 __all__ = ["OutlierDetector"]
 
