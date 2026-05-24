@@ -1,4 +1,26 @@
-# .gitignore
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store           # Mac
+Thumbs.db           # Windows
